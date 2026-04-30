@@ -1,0 +1,34 @@
+# GCL Premium Calculator
+
+This is a Streamlit-based app for calculating insurance premiums using GCL rate tables.
+
+## Formula
+
+Premium = (Loan Amount / 100000) × Rate
+
+## Features
+
+- Fixed backend rate file
+- Client uploads only loan data
+- Supports:
+  - Home Loan
+  - Personal Loan
+  - LAP
+  - Business Loans
+- Level & Reducing Cover
+
+## Required Input Columns
+
+- Customer Name
+- Age
+- Loan Amount
+- Tenure Months
+
+## Run Locally
+
+pip install -r requirements.txt
+streamlit run app.py
+
+## Deploy
+
+Upload to GitHub and deploy using Streamlit Cloud
