@@ -236,10 +236,7 @@ sheet_name = PRODUCT_SHEETS[(product, cover_type)]
 
 st.sidebar.success(f"Selected Rate Sheet: {sheet_name}")
 
-st.sidebar.divider()
 
-st.sidebar.markdown("### Premium Formula")
-st.sidebar.code("Premium = (Loan Amount / 100000) × Rate Per Lakh")
 
 # --------------------------------------------------
 # Main layout
