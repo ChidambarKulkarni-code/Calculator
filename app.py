@@ -4,10 +4,8 @@ import numpy as np
 from pathlib import Path
 from io import BytesIO
 
-# --------------------------------------------------
-# Fixed backend rate file
-# --------------------------------------------------
-RATE_FILE = Path("data/Main GCL Rates.xlsx")
+
+RATE_FILE = Path("Main GCL Rates.xlsx")
 
 PRODUCT_SHEETS = {
     ("Home Loan", "Level Cover"): "Home Loan Level Cover",
