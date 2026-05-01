@@ -39,7 +39,6 @@ REQUIRED_COLUMNS = [
 # --------------------------------------------------
 st.set_page_config(
     page_title="GCL Premium Calculator",
-    page_icon="📊",
     layout="wide"
 )
 
@@ -48,7 +47,7 @@ st.set_page_config(
 # --------------------------------------------------
 st.title("Group Credit Life Premium Calculator")
 st.caption(
-    "Bulk premium calculation engine using fixed age-wise and tenure-wise GCL rate tables."
+    "A portfolio-level premium computation tool for credit-linked insurance pricing."
 )
 
 st.divider()
@@ -215,7 +214,7 @@ if not RATE_FILE.exists():
 # --------------------------------------------------
 # Sidebar
 # --------------------------------------------------
-st.sidebar.title("Calculator Settings")
+st.sidebar.title("Pricing Configuration")
 
 product = st.sidebar.selectbox(
     "Select Product Type",
